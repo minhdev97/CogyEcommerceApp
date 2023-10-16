@@ -1,0 +1,145 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-right: 190px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(10, 0, 0, 0.1);
+}
+
+.login-form .title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.password-input {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.password-input input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  background-color: #ee4d2d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #dc3c21;
+}
+
+.additional-links {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.additional-links a {
+  margin-right: 10px;
+  color: #888;
+}
+
+.auth-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.auth-button {
+  flex: 1;
+}
+
+.facebook-button,
+.google-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.facebook-button {
+  background-color: #3b5998;
+}
+
+.google-button {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+}
+
+.button-icon {
+  margin-right: 5px;
+}
+
+.button-label {
+  font-weight: bold;
+}
+
+.register-link:hover{
+  color: #4b09e4;
+}
+
+.sms-login-link:hover{
+  color: #3bee1b
+}
+
+.forgot-password-link:hover{
+  color: #e60606
+}
+

@@ -1,0 +1,45 @@
+.gender-radio {
+    padding-right: 40px;
+    text-align: center;
+}
+
+.update-button {
+    border-radius: 10px;
+}
+
+.update-button:hover {
+    opacity: 0.8;
+}
+
+.modal-button {
+    border-radius: 10px;
+}
+
+.large-text {
+    font-size: 20px;
+}
+
+.center-content {
+    text-align: center;
+    padding-left: 70px;
+}
+
+.info-input {
+    width: 300px;
+    font-size: 100%;
+}
+
+.custom-tabs-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.custom-swal-dialog {
+    font-size: 80%;
+}
+
+.custom-tabs {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}

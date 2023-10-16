@@ -1,0 +1,34 @@
+.filter-header{
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+.filter-icon {
+    margin-right: 10px;
+}
+.filter-text {
+    margin: 0;
+}
+.filter-container {
+    display:block;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 150px;
+    font-family: "Roboto", sans-serif;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    alignment: left;
+    position:relative;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.input-number-width {
+    height:30px;
+    font-size:16px;
+}

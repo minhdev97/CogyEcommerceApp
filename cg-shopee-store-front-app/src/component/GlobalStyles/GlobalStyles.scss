@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese');
+@import "normalize.css";
+:root {
+
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.pagination-size {
+  font-size: 3rem !important;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  background-color: #f5f5f5;
+}
+
+.cogy-bg {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/database-img-858ab.appspot.com/o/vecteezy_abstract-purple-background_10537506_185_720.jpg?alt=media&token=eefd75c1-fe2d-4f59-9e74-f777810fc3cc");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+

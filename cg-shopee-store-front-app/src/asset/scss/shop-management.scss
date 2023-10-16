@@ -1,0 +1,38 @@
+@import "variables";
+@import "content";
+@import "header";
+@import "sidebar";
+@import "overrides";
+@import "base";
+@import "image-uploader";
+@import 'mdb-react-ui-kit/dist/css/mdb.min.css'; //mdb react
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+@import "primereact/resources/primereact.min.css";
+
+
+.ai-outline-plus-circle{
+  margin-left: 0.5rem;
+  color: #2d2df9;
+  transition: color 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    color: orangered;
+  }
+}
+
+.delete-icon-bin {
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: orangered;
+  }
+}
+
+.invalid-input-product {
+  border: 1px solid red;
+  border-radius: 6px;
+}
+

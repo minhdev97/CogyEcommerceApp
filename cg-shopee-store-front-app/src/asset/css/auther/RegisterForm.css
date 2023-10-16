@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.registration_title{
+  text-align: center;
+  color: #000;
+  font-size: 28px;
+  font-family: Poppins;
+  text-transform: capitalize;
+  padding-bottom: 32px;
+}
+
+.social_logo{
+  padding-right: 5px;
+}
+
+.socials_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.socials_container{
+  padding-bottom: 19px;
+}
+
+.socials_element{
+  padding-top:10px;
+  padding-bottom:10px;
+  width: 48%;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  border: 1px solid #686868;
+}
+.registration_container{
+  margin-top: 6%;
+}
+.registration_wrapper{
+  max-width: 633px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.socials_element{
+  text-decoration: none;
+}
+
+.social_text{
+  color: #000;
+  font-size: 20px;
+  font-family: Poppins;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.registration_row{
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-content: center;
+
+}
+
+.registration_button{
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 100%;
+  border-radius: 6px;
+  background: #986F4A;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.col_25{
+  width: 30%;
+  margin-right: 20px;
+}
+
+.col_75{
+  width: 70%;
+}
+
+.full_row{
+  width: 100%;
+}
+
+.registration_input{
+  width: -webkit-fill-available;
+  color: #686868;
+  font-size: 18px;
+  font-family: Poppins;
+  text-transform: capitalize;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left:18px;
+  border-radius: 6px;
+  border: 1px solid #686868;
+}
+
+.registration_button:hover{
+  cursor: pointer;
+}
+.keep_signed_in{
+  color: #686868;
+font-size: 12px;
+font-family: Poppins;
+text-transform: capitalize;
+}
+
+.col_64{
+  width: 100%;
+}

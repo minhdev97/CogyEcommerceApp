@@ -1,0 +1,53 @@
+/*Css CartItem page*/
+
+.quantity-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.quantity-input button {
+    width: 36px;
+    height: 36px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+}
+
+.quantity-input .decrease-button {
+    border-radius: 4px 0 0 4px;
+}
+
+.quantity-input .increase-button {
+    border-radius: 0 4px 4px 0;
+}
+
+.quantity-input input {
+    width: 48px;
+    height: 36px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.font-size-normal {
+    font-size: 200% !important;
+}
+
+.font-size-100 {
+    font-size: 100% !important;
+}
+
+.swal2-confirm {
+    font-size: 100% !important;
+}
+
+.swal2-cancel {
+    font-size: 100% !important;
+}

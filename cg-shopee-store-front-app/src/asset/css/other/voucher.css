@@ -1,0 +1,39 @@
+.voucher-promotion {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.voucher-promotion h2 {
+    color: #620b9c;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.voucher-promotion p {
+    color: #3a7fe0;
+    font-size: 18px;
+}
+
+.p-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.p-col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.pi {
+    font-size: 1rem;
+}
+
+.larger-placeholder ::placeholder {
+    font-size: 18px;
+    color: black;
+    font-weight: 450;
+}
+
+

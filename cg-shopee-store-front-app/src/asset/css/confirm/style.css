@@ -1,0 +1,49 @@
+/* Định dạng chung cho form-container */
+.form-container {
+    max-width: 471px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+    margin-bottom: 130px;
+}
+
+/* Định dạng cho tiêu đề Xác nhận email */
+.form-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Định dạng cho label và input */
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-container input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Định dạng cho nút Xác nhận */
+.form-container button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button[type='submit']:hover {
+    background-color: #0056b3;
+}

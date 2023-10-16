@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 48px;
+        }
+    </style>
+<!--    <script th:inline="javascript">-->
+<!--        function formatCurrency(value) {-->
+<!--            return value.toLocaleString('vi-VN', {style: 'currency', currency: 'VND'});-->
+<!--        }-->
+<!--    </script>-->
+</head>
+<body>
+<p th:text="${'Xin chào, ' + name}"></p>
+<h3> Thông tin đơn hàng của bạn như sau: </h3>
+<p th:text="${'Tổng giá trị đơn hàng: ' + totalPrice}"></p>
+<p>Vui lòng chuẩn bị đúng số tiền để thanh toán cho Shipper</p>
+<p>Đây là email tự động vui lòng không trả lời.</p>
+</body>
+</html>

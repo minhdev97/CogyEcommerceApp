@@ -1,0 +1,72 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.7'
+	id 'io.spring.dependency-management' version '1.1.0'
+}
+
+group = 'com'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+configurations {
+	configureEach {
+		 'org.springframework.boot:spring-boot-starter-logging'
+	}
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'com.cogy_ecommerce_service.COGYEcommerceServiceApplication'
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-cache', version: '3.0.2'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-mail', version: '2.7.3'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
+	implementation 'org.springframework.boot:spring-boot-starter-web-services'
+	implementation 'org.springframework.boot:spring-boot-starter-logging'
+	implementation 'com.fasterxml.jackson.core:jackson-core:2.14.1'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.1'
+	implementation 'io.jsonwebtoken:jjwt:0.9.1'
+	implementation 'org.apache.commons:commons-lang3:3.9'
+	implementation 'org.modelmapper:modelmapper:2.4.4'
+	runtimeOnly 'com.mysql:mysql-connector-j'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.security:spring-security-test'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-mail', version: '2.2.6.RELEASE'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '2.7.3'
+	//dependency of redis
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+	implementation 'io.lettuce:lettuce-core:6.1.8.RELEASE'
+	implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.14.1'
+//	implementation 'org.flywaydb:flyway-core'
+//	implementation 'org.flywaydb:flyway-mysql'
+	implementation group: 'com.google.code.gson', name: 'gson', version: '2.9.1'
+	//dependency of rabbitMQ
+	implementation 'org.springframework.boot:spring-boot-starter-amqp'
+	implementation 'com.rabbitmq:amqp-client:5.13.1'
+}
+
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

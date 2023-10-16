@@ -1,0 +1,12 @@
+package com.cogy_ecommerce_service.service;
+
+import com.cogy_ecommerce_service.payload.request.GHTKTransportDetailRequestDTO;
+import com.cogy_ecommerce_service.payload.request.OrderToGHTKRequestDTO;
+import com.cogy_ecommerce_service.payload.response.GHTKShippingFeeDetailResponseDTO;
+import com.cogy_ecommerce_service.payload.response.OrderFromGHTKResponseDTO;
+
+public interface OrderToDeliveryService {
+    OrderFromGHTKResponseDTO postOrderToGHTKDeliveryService(OrderToGHTKRequestDTO orderToGHTKRequestDTO);
+
+    GHTKShippingFeeDetailResponseDTO getShippingFeeByGHTKDeliveryService(GHTKTransportDetailRequestDTO transportDetailRequestDTO);
+}
